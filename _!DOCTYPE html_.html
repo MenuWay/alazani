@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ресторан "Алазани" — Грузинская кухня в Павлодаре</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f8f3ef;
+      color: #3b2d2a;
+    }
+
+    header {
+      background-color: #7b1f1f;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      background-image: linear-gradient(135deg, #7b1f1f 60%, #a43d2e);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #7b1f1f;
+      border-bottom: 2px solid #7b1f1f;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    a.btn {
+      text-decoration: none;
+      padding: 15px 25px;
+      background-color: #a43d2e;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    a.btn:hover {
+      background-color: #7b1f1f;
+    }
+
+    .contacts {
+      background-color: #f1e2dc;
+      padding: 20px;
+      border-radius: 8px;
+      line-height: 1.6;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 320px;
+      border-radius: 8px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #7b1f1f;
+      color: white;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      a.btn {
+        flex: 1 1 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ресторан «Алазани»</h1>
+    <p>Настоящая грузинская кухня в самом сердце Павлодара</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>О ресторане</h2>
+      <p>
+        Добро пожаловать в «Алазани» — уютный уголок грузинского гостеприимства в Павлодаре!
+        Мы готовим с любовью по традиционным рецептам: хачапури, хинкали, шашлыки и ароматное вино.
+        Почувствуйте вкус солнечной Грузии прямо у нас!
+      </p>
+    </section>
+
+    <section>
+      <h2>Отзывы</h2>
+      <p>Поделитесь впечатлениями о нашем ресторане:</p>
+      <div class="btn-container">
+        <a class="btn" target="_blank" href="https://2gis.kz/pavlodar/firm/70000001056447224/tab/reviews">Оставить отзыв в 2ГИС</a>
+        <a class="btn" target="_blank" href="https://yandex.kz/maps/org/alazani/1296327852/reviews/">Оставить отзыв в Яндекс</a>
+        <a class="btn" target="_blank" href="https://wa.me/77055337050?text=Здравствуйте%2C%20у%20меня%20есть%20вопрос%20по%20работе%20ресторана%20Алазани">Есть жалоба? Написать директору</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Контакты</h2>
+      <div class="contacts">
+        <p><strong>Адрес:</strong> Павлодар, ул. Сураганова, 17/1</p>
+        <p><strong>Телефон:</strong> <a href="tel:+77055337050" style="color:#7b1f1f;">+7 705 533-70-50</a></p>
+        <p><strong>Время работы:</strong> ежедневно с 11:00 до 01:00</p>
+      </div>
+
+      <!-- ✅ Рабочая карта Яндекс -->
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6378a4b34fef5836b6224c5b2fa8c28b87ce53183d61a2dd1460bb933c1cf528&amp;source=constructor" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Ресторан «Алазани». Все права защищены.
+  </footer>
+</body>
+</html>
